@@ -1,0 +1,50 @@
+/* pages/disclaimer.wxss */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20rpx;
+  }
+  
+  .title {
+    font-size: 36rpx;
+    font-weight: bold;
+    margin-bottom: 20rpx;
+  }
+  
+  .content {
+    width: 100%;
+    height: 400rpx;
+    margin-bottom: 20rpx;
+    border: 1rpx solid #ccc;
+    padding: 10rpx;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .button {
+    width: 45%;
+    height: 80rpx;
+    line-height: 80rpx;
+    text-align: center;
+    border-radius: 10rpx;
+  }
+  
+  .agree {
+    background-color: #07c160;
+    color: #fff;
+  }
+  
+  .refuse {
+    background-color: #eee;
+    color: #333;
+  }
+
+  .text {
+      white-space: pre-line;
+  }

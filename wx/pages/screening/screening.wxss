@@ -1,0 +1,13 @@
+/* pages/screening/screening.wxss */
+
+.nav-btn{
+    display: block;
+    width: 80%;
+    margin: 50rpx auto;
+    padding: 20rpx;
+    text-align: center;
+    background-color: #337ab7;
+    color: white;
+    border-radius: 10rpx;
+    font-size: 32rpx;
+}
